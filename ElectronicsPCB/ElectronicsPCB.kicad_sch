@@ -5142,7 +5142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00caea17-7e54-4170-a5e3-282539fe47fd")
-		(property "Reference" "TEENSY"
+		(property "Reference" "TEENSY1"
 			(at 175.26 35.56 0)
 			(effects
 				(font
@@ -5318,7 +5318,7 @@
 		(instances
 			(project ""
 				(path "/986f98f1-de62-46c2-9c6e-8a3d3d9a8a4d"
-					(reference "TEENSY")
+					(reference "TEENSY1")
 					(unit 1)
 				)
 			)
@@ -5602,7 +5602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33d4af48-10a4-4009-ba9f-5574a699d3c8")
-		(property "Reference" "ANEMOMETER"
+		(property "Reference" "ANEMOMETER1"
 			(at 269.24 101.5999 0)
 			(effects
 				(font
@@ -5620,7 +5620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_B4B-XH-A_JST"
+		(property "Footprint" ""
 			(at 255.27 99.06 0)
 			(effects
 				(font
@@ -5664,7 +5664,7 @@
 		(instances
 			(project ""
 				(path "/986f98f1-de62-46c2-9c6e-8a3d3d9a8a4d"
-					(reference "ANEMOMETER")
+					(reference "ANEMOMETER1")
 					(unit 1)
 				)
 			)
@@ -5747,7 +5747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "399d8fa2-b6ef-4399-a657-4919c7bfdb49")
-		(property "Reference" "TAIL"
+		(property "Reference" "TAIL1"
 			(at 269.24 57.1499 0)
 			(effects
 				(font
@@ -5845,7 +5845,7 @@
 		(instances
 			(project "ElectronicsPCB"
 				(path "/986f98f1-de62-46c2-9c6e-8a3d3d9a8a4d"
-					(reference "TAIL")
+					(reference "TAIL1")
 					(unit 1)
 				)
 			)
@@ -5861,7 +5861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fc22a51-af16-47fe-be0b-2ebaf9f02e93")
-		(property "Reference" "EXTRA4PIN"
+		(property "Reference" "EXTRA4PIN1"
 			(at 269.24 119.3799 0)
 			(effects
 				(font
@@ -5879,7 +5879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_B4B-XH-A_JST"
+		(property "Footprint" ""
 			(at 255.27 116.84 0)
 			(effects
 				(font
@@ -5923,7 +5923,7 @@
 		(instances
 			(project "ElectronicsPCB"
 				(path "/986f98f1-de62-46c2-9c6e-8a3d3d9a8a4d"
-					(reference "EXTRA4PIN")
+					(reference "EXTRA4PIN1")
 					(unit 1)
 				)
 			)
@@ -6006,7 +6006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41c5acb2-a771-4ba0-be94-125b99934ff7")
-		(property "Reference" "CAMERA"
+		(property "Reference" "CAMERA1"
 			(at 269.24 71.1199 0)
 			(effects
 				(font
@@ -6104,7 +6104,7 @@
 		(instances
 			(project "ElectronicsPCB"
 				(path "/986f98f1-de62-46c2-9c6e-8a3d3d9a8a4d"
-					(reference "CAMERA")
+					(reference "CAMERA1")
 					(unit 1)
 				)
 			)
@@ -6187,7 +6187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53ae3eec-d9da-4365-9767-1ab6b459a05e")
-		(property "Reference" "EXTRA3PIN"
+		(property "Reference" "EXTRA3PIN1"
 			(at 269.24 86.3599 0)
 			(effects
 				(font
@@ -6285,7 +6285,7 @@
 		(instances
 			(project "ElectronicsPCB"
 				(path "/986f98f1-de62-46c2-9c6e-8a3d3d9a8a4d"
-					(reference "EXTRA3PIN")
+					(reference "EXTRA3PIN1")
 					(unit 1)
 				)
 			)
@@ -6435,7 +6435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58c365f3-d673-48b9-b568-11201a85f565")
-		(property "Reference" "VIN"
+		(property "Reference" "VIN1"
 			(at 269.24 29.2099 0)
 			(effects
 				(font
@@ -6530,7 +6530,7 @@
 		(instances
 			(project "ElectronicsPCB"
 				(path "/986f98f1-de62-46c2-9c6e-8a3d3d9a8a4d"
-					(reference "VIN")
+					(reference "VIN1")
 					(unit 1)
 				)
 			)
@@ -6747,7 +6747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73885312-337c-47cb-a3d6-ba4ffc49319c")
-		(property "Reference" "SAIL"
+		(property "Reference" "SAIL1"
 			(at 269.24 41.9099 0)
 			(effects
 				(font
@@ -6845,7 +6845,7 @@
 		(instances
 			(project ""
 				(path "/986f98f1-de62-46c2-9c6e-8a3d3d9a8a4d"
-					(reference "SAIL")
+					(reference "SAIL1")
 					(unit 1)
 				)
 			)
@@ -7062,7 +7062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad6269ef-b629-47dc-be17-e8178caca6a8")
-		(property "Reference" "12V"
+		(property "Reference" "12V1"
 			(at 269.24 19.0499 0)
 			(effects
 				(font
@@ -7157,7 +7157,7 @@
 		(instances
 			(project ""
 				(path "/986f98f1-de62-46c2-9c6e-8a3d3d9a8a4d"
-					(reference "12V")
+					(reference "12V1")
 					(unit 1)
 				)
 			)
@@ -7642,7 +7642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee866816-5212-46d2-b6f0-a5ead8ffa0d3")
-		(property "Reference" "HEADERS"
+		(property "Reference" "HEADERS1"
 			(at 175.26 93.98 0)
 			(effects
 				(font
@@ -7849,7 +7849,7 @@
 		(instances
 			(project ""
 				(path "/986f98f1-de62-46c2-9c6e-8a3d3d9a8a4d"
-					(reference "HEADERS")
+					(reference "HEADERS1")
 					(unit 1)
 				)
 			)
