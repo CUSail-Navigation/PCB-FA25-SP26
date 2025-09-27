@@ -1607,7 +1607,7 @@
 		)
 		(uuid "fc10c0da-8001-48f4-8c1d-5385107347f6")
 	)
-	(global_label "VectorNav TX"
+	(global_label "VectorNavTX"
 		(shape input)
 		(at 87.63 127 180)
 		(fields_autoplaced yes)
@@ -1619,7 +1619,7 @@
 		)
 		(uuid "438e89ad-9ffa-4748-abdd-ada51659873e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.1263 127 0)
+			(at 73.0939 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,7 +1629,7 @@
 			)
 		)
 	)
-	(global_label "VectorNav RX"
+	(global_label "VectorNavRX"
 		(shape input)
 		(at 168.91 100.33 180)
 		(fields_autoplaced yes)
@@ -1641,7 +1641,7 @@
 		)
 		(uuid "4a4930a9-4738-40c1-aa98-9b1f57df4acc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.1039 100.33 0)
+			(at 154.0715 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1651,7 +1651,7 @@
 			)
 		)
 	)
-	(global_label "Teensy RX"
+	(global_label "TeensyRX"
 		(shape input)
 		(at 138.43 127 0)
 		(fields_autoplaced yes)
@@ -1663,7 +1663,7 @@
 		)
 		(uuid "6584f556-7707-4b07-bf26-44162180f8e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.1518 127 0)
+			(at 150.1842 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1673,7 +1673,7 @@
 			)
 		)
 	)
-	(global_label "Teensy TX"
+	(global_label "TeensyTX"
 		(shape input)
 		(at 138.43 124.46 0)
 		(fields_autoplaced yes)
@@ -1685,7 +1685,7 @@
 		)
 		(uuid "74607878-419b-4efa-9fce-d419c6b327d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.8494 124.46 0)
+			(at 149.8818 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +1695,7 @@
 			)
 		)
 	)
-	(global_label "VectorNav TX"
+	(global_label "VectorNavTX"
 		(shape input)
 		(at 168.91 105.41 180)
 		(fields_autoplaced yes)
@@ -1707,7 +1707,7 @@
 		)
 		(uuid "dac0aa91-ade2-4439-8128-556244a1feac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.4063 105.41 0)
+			(at 154.3739 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,7 +1717,7 @@
 			)
 		)
 	)
-	(global_label "VectorNav RX"
+	(global_label "VectorNavRX"
 		(shape input)
 		(at 87.63 124.46 180)
 		(fields_autoplaced yes)
@@ -1729,7 +1729,7 @@
 		)
 		(uuid "ddbf5f80-362a-40f7-84c0-a6ec2ad1d2a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.8239 124.46 0)
+			(at 72.7915 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
