@@ -7,4 +7,5 @@
   (lib (name "TeensyConnector")(type "KiCad")(uri "${KIPRJMOD}/Components/TeensyPassthrough/M20-7832046.kicad_sym")(options "")(descr ""))
   (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/New_Library.kicad_sym")(options "")(descr ""))
   (lib (name "VectorNav2")(type "KiCad")(uri "${KIPRJMOD}/VectorNav2.kicad_sym")(options "")(descr ""))
+  (lib (name "ElectronicsBoard")(type "KiCad")(uri "${KIPRJMOD}/ElectronicsBoard.kicad_sym")(options "")(descr ""))
 )

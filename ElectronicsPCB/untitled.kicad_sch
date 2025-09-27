@@ -1459,7 +1459,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 111.76) (xy 87.63 111.76)
+			(xy 72.39 111.76) (xy 87.63 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1486,6 +1486,16 @@
 			(type default)
 		)
 		(uuid "2e5caddd-580d-429e-89af-2107bdf38419")
+	)
+	(wire
+		(pts
+			(xy 64.77 111.76) (xy 66.04 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d96b1a-2db2-4161-842d-a7be8e44ed3e")
 	)
 	(wire
 		(pts
@@ -1972,7 +1982,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 69.85 111.76 90)
+		(at 68.58 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1981,7 +1991,7 @@
 		(fields_autoplaced yes)
 		(uuid "776249da-e5b6-4f39-83c1-50578cc88ce7")
 		(property "Reference" "C4"
-			(at 69.85 104.14 90)
+			(at 68.58 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,7 +1999,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 69.85 106.68 90)
+			(at 68.58 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1997,7 +2007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 110.7948 0)
+			(at 72.39 110.7948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2006,7 +2016,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 111.76 0)
+			(at 68.58 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2015,7 +2025,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 69.85 111.76 0)
+			(at 68.58 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,7 +2067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3.3V"
 			(at 142.24 116.8399 90)
 			(effects
 				(font
@@ -2124,7 +2134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3.3V"
 			(at 142.24 119.3799 90)
 			(effects
 				(font
@@ -2191,7 +2201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3.3V"
 			(at 142.24 121.9199 90)
 			(effects
 				(font
@@ -2462,7 +2472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3.3V"
 			(at 142.24 114.2999 90)
 			(effects
 				(font
@@ -2641,7 +2651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3.3V"
 			(at 142.24 109.2199 90)
 			(effects
 				(font
