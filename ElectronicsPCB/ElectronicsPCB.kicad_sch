@@ -9259,7 +9259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ElectronicsFootprints:XBee"
 			(at 96.52 144.78 0)
 			(effects
 				(font
