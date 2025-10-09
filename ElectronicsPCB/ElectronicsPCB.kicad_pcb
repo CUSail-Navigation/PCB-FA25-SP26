@@ -483,9 +483,9 @@
 	(footprint "ElectronicsFootprints:XBee"
 		(layer "F.Cu")
 		(uuid "0cd716ec-3ad9-4419-a4aa-7b5a1010a25c")
-		(at 211.6 66.9)
+		(at 118.2 88 180)
 		(property "Reference" "XBEE1"
-			(at 0 -0.5 0)
+			(at 0 -0.5 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -498,7 +498,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 0)
+			(at 0 1 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -511,7 +511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -524,7 +524,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -541,24 +541,14 @@
 		(sheetfile "ElectronicsPCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -15 -16)
-			(end 10 -16)
+			(start 10 20)
+			(end -15 20)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "8c391111-3e44-4437-8cf5-d9ad2abd52ef")
-		)
-		(fp_line
-			(start -15 20)
-			(end -15 -16)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "16af9bee-1ef1-4bd8-b0f0-1eaab85ec0df")
+			(uuid "33dccb30-8924-46f1-a1dd-ac73a874c2f3")
 		)
 		(fp_line
 			(start 10 -16)
@@ -571,17 +561,27 @@
 			(uuid "62d44b3f-9987-45f8-b24a-e6b09a93341e")
 		)
 		(fp_line
-			(start 10 20)
-			(end -15 20)
+			(start -15 20)
+			(end -15 -16)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "33dccb30-8924-46f1-a1dd-ac73a874c2f3")
+			(uuid "16af9bee-1ef1-4bd8-b0f0-1eaab85ec0df")
+		)
+		(fp_line
+			(start -15 -16)
+			(end 10 -16)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "8c391111-3e44-4437-8cf5-d9ad2abd52ef")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -2 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "31cc4622-fe79-4a8d-af41-10bcdf98c77b")
@@ -593,7 +593,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at -13.5 -5)
+			(at -13.5 -5 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -604,7 +604,7 @@
 			(uuid "a1c0161b-0ada-48c4-b272-19746c837b60")
 		)
 		(pad "2" thru_hole circle
-			(at -13.5 -3)
+			(at -13.5 -3 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -615,7 +615,7 @@
 			(uuid "23807280-53af-421f-9f84-5908d21d4ed5")
 		)
 		(pad "3" thru_hole circle
-			(at -13.5 -1)
+			(at -13.5 -1 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -626,7 +626,7 @@
 			(uuid "f579da95-9e60-486e-aab2-50efa60040b1")
 		)
 		(pad "4" thru_hole circle
-			(at -13.5 1)
+			(at -13.5 1 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -637,7 +637,7 @@
 			(uuid "a1687eba-db8e-419b-ba8c-1e7a427c4455")
 		)
 		(pad "5" thru_hole circle
-			(at -13.5 3)
+			(at -13.5 3 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -648,7 +648,7 @@
 			(uuid "a844f02c-47a4-4f22-acc7-69880a0f0b53")
 		)
 		(pad "6" thru_hole circle
-			(at -13.5 5)
+			(at -13.5 5 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -659,7 +659,7 @@
 			(uuid "82410d44-48db-4fc0-a828-ea7ac3716d93")
 		)
 		(pad "7" thru_hole circle
-			(at -13.5 7)
+			(at -13.5 7 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -670,7 +670,7 @@
 			(uuid "a056c0df-c83a-40a9-82b1-2dbbdc956a8a")
 		)
 		(pad "8" thru_hole circle
-			(at -13.5 9)
+			(at -13.5 9 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -681,7 +681,7 @@
 			(uuid "859c269b-4ec9-45c7-b334-6f94e9a7548c")
 		)
 		(pad "9" thru_hole circle
-			(at -13.5 11)
+			(at -13.5 11 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -692,7 +692,7 @@
 			(uuid "7e7770ec-df22-44fc-92ec-c2c4ba2d55ab")
 		)
 		(pad "10" thru_hole circle
-			(at -13.5 13)
+			(at -13.5 13 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -703,7 +703,7 @@
 			(uuid "0e82c109-c287-4204-82a2-2c0aa88b71ad")
 		)
 		(pad "11" thru_hole circle
-			(at 8.5 13)
+			(at 8.5 13 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -714,7 +714,7 @@
 			(uuid "ae17aef7-ebf0-4249-ab4a-172e39e730b4")
 		)
 		(pad "12" thru_hole circle
-			(at 8.5 11)
+			(at 8.5 11 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -725,7 +725,7 @@
 			(uuid "71eb4ed6-19db-40ba-a053-03cf62fc78c2")
 		)
 		(pad "13" thru_hole circle
-			(at 8.5 9)
+			(at 8.5 9 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -736,7 +736,7 @@
 			(uuid "1b57f01e-6c2c-41f0-9690-7eca15d32848")
 		)
 		(pad "14" thru_hole circle
-			(at 8.5 7)
+			(at 8.5 7 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -747,7 +747,7 @@
 			(uuid "e08a47af-4351-4c7c-9474-60056725330d")
 		)
 		(pad "15" thru_hole circle
-			(at 8.5 5)
+			(at 8.5 5 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -758,7 +758,7 @@
 			(uuid "7fdc8512-4ca5-461e-bdba-4563131813ae")
 		)
 		(pad "16" thru_hole circle
-			(at 8.5 3)
+			(at 8.5 3 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -769,7 +769,7 @@
 			(uuid "c0a36a26-3f7b-4459-a75f-b3f8f0b714fc")
 		)
 		(pad "17" thru_hole circle
-			(at 8.5 1)
+			(at 8.5 1 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -780,7 +780,7 @@
 			(uuid "487dc029-eedd-4187-8ca9-d8c6df98f53d")
 		)
 		(pad "18" thru_hole circle
-			(at 8.5 -1)
+			(at 8.5 -1 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -791,7 +791,7 @@
 			(uuid "ce295da3-282a-4816-8cc7-ebf690f3dfac")
 		)
 		(pad "19" thru_hole circle
-			(at 8.5 -3)
+			(at 8.5 -3 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -802,7 +802,7 @@
 			(uuid "640d716e-c83b-4cef-a551-ae7663ae4a08")
 		)
 		(pad "20" thru_hole circle
-			(at 8.5 -5)
+			(at 8.5 -5 180)
 			(size 1.7 1.7)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -840,7 +840,7 @@
 			)
 			(polygon
 				(pts
-					(xy 196.6 50.9) (xy 221.6 50.9) (xy 221.6 86.9) (xy 196.6 86.9)
+					(xy 133.2 104) (xy 108.2 104) (xy 108.2 68) (xy 133.2 68)
 				)
 			)
 		)
@@ -3773,7 +3773,7 @@
 	(footprint "Connector_Dsub:DSUB-9_Socket_Vertical_P2.77x2.84mm_MountingHoles"
 		(layer "F.Cu")
 		(uuid "992d1e33-e034-4b47-9e85-95a271f2c202")
-		(at 214.24 95.88)
+		(at 130.44 58.38)
 		(descr "9-pin D-Sub connector, straight/vertical, THT-mount, socket (female), pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 		(tags "9-pin D-Sub connector straight vertical THT socket pitch 2.77x2.84mm mounting holes distance 25mm")
 		(property "Reference" "VectorNavInput1"
