@@ -5851,7 +5851,7 @@
 		(uuid "ba6002fd-6856-4143-bca3-dab3c1ddb447")
 		(at 139.325 100.7375 -90)
 		(property "Reference" "EXTRA1"
-			(at 7.25 -2.575 180)
+			(at -7.5375 0.225 180)
 			(layer "F.SilkS")
 			(uuid "6f3d0e1e-901a-4fa0-8428-af2bb5be037b")
 			(effects
