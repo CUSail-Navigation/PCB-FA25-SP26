@@ -9272,7 +9272,6 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(net 4745664)
 			(uuid "51579d43-3935-4e01-a8a0-1c2c1a520e0b")
 		)
 		(fp_poly
@@ -9380,7 +9379,6 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(net 4745664)
 			(uuid "9a706906-4580-4cbb-a7fa-d6c9c836e527")
 		)
 		(embedded_fonts no)
@@ -10003,7 +10001,6 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(net 4745664)
 			(uuid "7e411dab-2d1b-4555-bca2-2fb140656e63")
 		)
 		(fp_poly
@@ -10118,7 +10115,6 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(net 4745664)
 			(uuid "e58ae823-fcc7-4d6f-8d9d-f833ebea2e87")
 		)
 		(embedded_fonts no)
@@ -12167,7 +12163,7 @@
 		(layer "Edge.Cuts")
 		(uuid "fa35a775-3980-406e-9eac-6674f0a10c01")
 	)
-	(gr_text "Electronics PCB \nv1 - 10/14/25\nLiya Mei\nJonah Conolly"
+	(gr_text "Control PCB\nFall 2025\nLiya Mei\nJonah Conolly"
 		(at 138.2 102.8 90)
 		(layer "F.SilkS")
 		(uuid "f25c6878-8f55-4c6e-becb-aa2015d1cb6b")
