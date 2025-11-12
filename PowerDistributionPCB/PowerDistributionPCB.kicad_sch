@@ -1239,7 +1239,7 @@
 	)
 	(symbol
 		(lib_id "CustomComponents:Pico")
-		(at 55.88 53.34 0)
+		(at 25.4 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1248,7 +1248,7 @@
 		(fields_autoplaced yes)
 		(uuid "370f45c0-3c14-4b03-8809-659f79d79b71")
 		(property "Reference" "U1"
-			(at 55.88 21.59 0)
+			(at 25.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1256,7 @@
 			)
 		)
 		(property "Value" "Pico"
-			(at 55.88 24.13 0)
+			(at 25.4 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1264,7 +1264,7 @@
 			)
 		)
 		(property "Footprint" "RPi_Pico:RPi_Pico_SMD_TH"
-			(at 55.88 53.34 90)
+			(at 25.4 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1273,7 +1273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 53.34 0)
+			(at 25.4 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1282,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 53.34 0)
+			(at 25.4 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,97 +1428,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "CustomComponents:TPSM84338RCJR")
-		(at 135.89 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88748861-6208-48d9-bb68-2f123d665f02")
-		(property "Reference" "5V"
-			(at 156.21 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TPSM84338RCJR"
-			(at 156.21 104.14 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "RCJ0009A-MFG"
-			(at 135.89 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tpsm84338"
-			(at 135.89 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "bebb9c1a-0a93-472e-ac6c-076533aa5f76")
-		)
-		(pin "1"
-			(uuid "81f0513d-39b2-4602-8a1c-5815da73226e")
-		)
-		(pin "9"
-			(uuid "222e480c-1149-4d2b-bacc-d11f788c2c8f")
-		)
-		(pin "8"
-			(uuid "2594dae1-1598-468d-ba99-393b428565a3")
-		)
-		(pin "7"
-			(uuid "50e017fe-6791-4962-9f53-d58b1ef4d29b")
-		)
-		(pin "5"
-			(uuid "12676a58-5ae9-427a-8b35-41fc6598833a")
-		)
-		(pin "4"
-			(uuid "cce3e5b0-9216-4e39-8a1e-f5bfe432e548")
-		)
-		(pin "2"
-			(uuid "4e26bb2d-671f-42e7-83b1-f19e850d8fdd")
-		)
-		(pin "3"
-			(uuid "4bfe39db-4cfe-4d81-9430-0baa7ac9006a")
-		)
-		(instances
-			(project ""
-				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
-					(reference "5V")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 33.782 127)
 		(size 24.638 15.494)
@@ -1597,6 +1506,48 @@
 			(project "PowerDistributionPCB"
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 70.358 75.438)
+		(size 51.562 29.718)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f25e14e-460b-4231-bb90-f7057402d72e")
+		(property "Sheetname" "5V"
+			(at 70.358 74.7264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5V.kicad_sch"
+			(at 70.358 105.7406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerDistributionPCB"
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
+					(page "3")
 				)
 			)
 		)
