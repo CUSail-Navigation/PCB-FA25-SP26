@@ -214,6 +214,10 @@
 					(reference "#PWR01")
 					(unit 1)
 				)
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/bfd015dc-a1f5-42ba-b972-f7703fed8888"
+					(reference "#PWR?")
+					(unit 1)
+				)
 			)
 		)
 	)

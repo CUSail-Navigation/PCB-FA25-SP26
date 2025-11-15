@@ -415,11 +415,11 @@
     ],
     [
       "64db8257-fd15-498a-b60d-52dd4c6b0385",
-      "Relays"
+      "12VRelay"
     ],
     [
-      "6f25e14e-460b-4231-bb90-f7057402d72e",
-      "5V"
+      "bfd015dc-a1f5-42ba-b972-f7703fed8888",
+      "5VRelay"
     ]
   ],
   "text_variables": {}
