@@ -141,7 +141,7 @@
 		(uuid "c6b76895-95aa-4511-a212-7da6ce4cb3cc")
 	)
 	(hierarchical_label "Out"
-		(shape input)
+		(shape output)
 		(at 184.15 50.8 0)
 		(effects
 			(font
@@ -161,7 +161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca9a0cf0-bc98-466a-844d-68602e3da335")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR"
 			(at 177.8 76.2 0)
 			(effects
 				(font
@@ -206,16 +206,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fcceceb0-751a-4314-b054-bcec4f630462")
+			(uuid "30fd3fac-584b-4004-897f-db7d4853cd3e")
 		)
 		(instances
-			(project ""
-				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/64db8257-fd15-498a-b60d-52dd4c6b0385"
+			(project "PowerDistributionPCB"
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/4aa10ec7-4b36-4cde-a760-c4500e70a751"
 					(reference "#PWR01")
-					(unit 1)
-				)
-				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/bfd015dc-a1f5-42ba-b972-f7703fed8888"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
