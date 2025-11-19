@@ -615,16 +615,16 @@
       "Root"
     ],
     [
-      "64db8257-fd15-498a-b60d-52dd4c6b0385",
-      "12VRelay"
-    ],
-    [
       "bfd015dc-a1f5-42ba-b972-f7703fed8888",
       "5VRelay"
     ],
     [
       "4aa10ec7-4b36-4cde-a760-c4500e70a751",
       "VectorNavRelay"
+    ],
+    [
+      "2554d0a8-0302-45bf-85e0-44db6e8d016e",
+      "12VRelay"
     ]
   ],
   "text_variables": {}

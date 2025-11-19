@@ -2562,16 +2562,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 146.05) (xy 93.98 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18771f1a-ccdf-4911-9ce0-a67403a5837d")
-	)
-	(wire
-		(pts
 			(xy 252.73 86.36) (xy 252.73 74.93)
 		)
 		(stroke
@@ -2589,6 +2579,16 @@
 			(type default)
 		)
 		(uuid "1cd139a7-bce8-4be7-b4d1-78b2991c1a2b")
+	)
+	(wire
+		(pts
+			(xy 82.55 50.8) (xy 88.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d82b118-c3bf-4b55-a9f5-94d6fe5cb490")
 	)
 	(wire
 		(pts
@@ -2692,6 +2692,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 45.72) (xy 88.9 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3923f1b3-9bb4-48ee-aaa3-5f4e2dc9e102")
+	)
+	(wire
+		(pts
 			(xy 265.43 107.95) (xy 252.73 107.95)
 		)
 		(stroke
@@ -2709,16 +2719,6 @@
 			(type default)
 		)
 		(uuid "4f7472af-227b-4ce7-b6f1-28791903c417")
-	)
-	(wire
-		(pts
-			(xy 82.55 138.43) (xy 93.98 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50ef17d6-c586-4037-a5b7-02133d768cb6")
 	)
 	(wire
 		(pts
@@ -3412,7 +3412,7 @@
 	)
 	(global_label "12Vout"
 		(shape input)
-		(at 83.82 146.05 180)
+		(at 82.55 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3422,7 +3422,7 @@
 		)
 		(uuid "5a1b923a-b0dd-4e6e-a2f5-7410fd0a612a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.3035 146.05 0)
+			(at 73.0335 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +3522,7 @@
 	)
 	(global_label "12VRelayOut"
 		(shape input)
-		(at 82.55 138.43 180)
+		(at 82.55 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3532,7 +3532,7 @@
 		)
 		(uuid "d2fcd3b3-f1da-4d6c-b951-baa229ab6b5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.7116 138.43 0)
+			(at 67.7116 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5933,6 +5933,88 @@
 		)
 	)
 	(sheet
+		(at 88.9 40.64)
+		(size 23.622 14.478)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2554d0a8-0302-45bf-85e0-44db6e8d016e")
+		(property "Sheetname" "12VRelay"
+			(at 88.9 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12VRelay.kicad_sch"
+			(at 88.9 55.7026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PicoConnection" input
+			(at 112.522 45.72 0)
+			(uuid "7cc95abf-d72d-423c-bfaa-98018578c1c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN" input
+			(at 88.9 50.8 180)
+			(uuid "d5fa17ff-f39a-46b6-a576-c6b8fbf8755a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 112.522 50.8 0)
+			(uuid "2827e249-22a8-42e2-8b36-169b1096a11a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Out" output
+			(at 88.9 45.72 180)
+			(uuid "e5907069-16f5-4ffd-ac90-c48f884e4a36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PowerDistributionPCB"
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 73.152 107.95)
 		(size 24.638 15.494)
 		(exclude_from_sim no)
@@ -5966,16 +6048,6 @@
 				(justify left top)
 			)
 		)
-		(pin "Out" input
-			(at 73.152 111.76 180)
-			(uuid "56a089e0-ac58-4d73-96d0-85a6e2ca2db6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PicoConnection" input
 			(at 97.79 111.76 0)
 			(uuid "3a15a767-2d14-44b2-82a8-e8e1d43804db")
@@ -6006,92 +6078,20 @@
 				(justify left)
 			)
 		)
+		(pin "Out" output
+			(at 73.152 111.76 180)
+			(uuid "9c3b43ef-0da9-4dc7-a1e0-91422eff868b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "PowerDistributionPCB"
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 93.98 134.62)
-		(size 24.638 15.494)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "64db8257-fd15-498a-b60d-52dd4c6b0385")
-		(property "Sheetname" "12VRelay"
-			(at 93.98 133.9084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 93.98 150.6986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "Out" input
-			(at 93.98 138.43 180)
-			(uuid "aab9a4fb-7b42-4ef9-893b-b4c52f390074")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PicoConnection" input
-			(at 118.618 138.43 0)
-			(uuid "de63e568-78ef-4c48-9b49-50e22a39ca5b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VCC" input
-			(at 118.618 146.05 0)
-			(uuid "874abcbc-34b5-4a11-a914-adc5292d511d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VIN" input
-			(at 93.98 146.05 180)
-			(uuid "622555e9-b4b0-47c0-92df-33985d4073d5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "PowerDistributionPCB"
-				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
-					(page "2")
 				)
 			)
 		)
@@ -6130,16 +6130,6 @@
 				(justify left top)
 			)
 		)
-		(pin "Out" input
-			(at 93.98 87.63 180)
-			(uuid "46df9e49-8e93-4ee4-9cc6-5ec83ed7196d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PicoConnection" input
 			(at 118.618 87.63 0)
 			(uuid "9c051179-910f-450d-a460-e93f9712c0ef")
@@ -6163,6 +6153,16 @@
 		(pin "VIN" input
 			(at 93.98 95.25 180)
 			(uuid "52488513-cb24-43c2-b908-b8526ccc4b72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 93.98 87.63 180)
+			(uuid "ff50ed55-058f-4358-a94c-d8b424eef9f6")
 			(effects
 				(font
 					(size 1.27 1.27)
