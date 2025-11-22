@@ -5986,16 +5986,6 @@
 				(justify left)
 			)
 		)
-		(pin "VCC" input
-			(at 112.522 50.8 0)
-			(uuid "2827e249-22a8-42e2-8b36-169b1096a11a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "Out" output
 			(at 88.9 45.72 180)
 			(uuid "e5907069-16f5-4ffd-ac90-c48f884e4a36")
@@ -6051,16 +6041,6 @@
 		(pin "PicoConnection" input
 			(at 97.79 111.76 0)
 			(uuid "3a15a767-2d14-44b2-82a8-e8e1d43804db")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VCC" input
-			(at 97.79 119.38 0)
-			(uuid "97eb93ba-504c-4773-b583-3668e8ddeb86")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,16 +6113,6 @@
 		(pin "PicoConnection" input
 			(at 118.618 87.63 0)
 			(uuid "9c051179-910f-450d-a460-e93f9712c0ef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VCC" input
-			(at 118.618 95.25 0)
-			(uuid "ee6e476c-79d8-46a5-9f15-8f2aba008b32")
 			(effects
 				(font
 					(size 1.27 1.27)

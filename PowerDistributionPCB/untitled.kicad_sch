@@ -511,7 +511,7 @@
 	)
 	(hierarchical_label "PicoConnection"
 		(shape input)
-		(at 184.15 62.23 0)
+		(at 133.35 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -522,7 +522,7 @@
 	)
 	(hierarchical_label "VIN"
 		(shape input)
-		(at 184.15 54.61 0)
+		(at 133.35 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -531,25 +531,14 @@
 		)
 		(uuid "67fa772a-1982-4efc-9010-372c881eb0d5")
 	)
-	(hierarchical_label "VCC"
-		(shape input)
-		(at 184.15 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c6b76895-95aa-4511-a212-7da6ce4cb3cc")
-	)
 	(hierarchical_label "Out"
 		(shape output)
-		(at 184.15 50.8 0)
+		(at 107.95 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "dffc24c5-3e3e-4141-90f9-82a845becf10")
 	)
@@ -663,7 +652,11 @@
 			(uuid "331b1f55-b269-4341-95a9-31d756985890")
 		)
 		(instances
-			(project ""
+			(project "PowerDistributionPCB"
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/4aa10ec7-4b36-4cde-a760-c4500e70a751"
+					(reference "K?")
+					(unit 1)
+				)
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/bfd015dc-a1f5-42ba-b972-f7703fed8888"
 					(reference "K?")
 					(unit 1)
@@ -673,16 +666,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 69.85 0)
+		(at 107.95 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ca9a0cf0-bc98-466a-844d-68602e3da335")
-		(property "Reference" "#PWR?"
-			(at 177.8 76.2 0)
+		(uuid "87e4a3d6-dccf-4cb1-820a-f58a6228645e")
+		(property "Reference" "#PWR013"
+			(at 101.6 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -691,15 +684,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 74.93 0)
+			(at 104.14 64.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 69.85 0)
+			(at 107.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -708,7 +702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 69.85 0)
+			(at 107.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -717,7 +711,78 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 69.85 0)
+			(at 107.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bc760eb-9561-4385-9631-dc5fb2c43d7e")
+		)
+		(instances
+			(project "PowerDistributionPCB"
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/4aa10ec7-4b36-4cde-a760-c4500e70a751"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/bfd015dc-a1f5-42ba-b972-f7703fed8888"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca9a0cf0-bc98-466a-844d-68602e3da335")
+		(property "Reference" "#PWR?"
+			(at 139.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)

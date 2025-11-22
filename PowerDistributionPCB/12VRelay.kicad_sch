@@ -614,42 +614,31 @@
 			(embedded_fonts no)
 		)
 	)
-	(hierarchical_label "VCC"
-		(shape input)
-		(at 165.1 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0f6abe11-546f-4760-ae9c-2fc3d29a7db0")
-	)
 	(hierarchical_label "VIN"
 		(shape input)
-		(at 165.1 64.77 0)
+		(at 120.65 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "281ab63c-f3d3-4664-a349-825eab42c635")
 	)
 	(hierarchical_label "PicoConnection"
 		(shape input)
-		(at 165.1 72.39 0)
+		(at 120.65 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7c08b7fe-65c0-463f-9dae-ce4cdd652fba")
 	)
 	(hierarchical_label "Out"
 		(shape output)
-		(at 165.1 60.96 0)
+		(at 151.13 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -657,6 +646,73 @@
 			(justify left)
 		)
 		(uuid "b076c2f0-403c-4866-a810-9dbb64f85d12")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34a0abb4-c2b0-4510-9663-2b3fed885a82")
+		(property "Reference" "#PWR012"
+			(at 157.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e25fd6c-7982-4b90-9a52-ca44756371af")
+		)
+		(instances
+			(project "PowerDistributionPCB"
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/2554d0a8-0302-45bf-85e0-44db6e8d016e"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Relays:AZ943-1CH-12DE")
@@ -739,7 +795,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 80.01 0)
+		(at 151.13 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -748,7 +804,7 @@
 		(fields_autoplaced yes)
 		(uuid "b24cac28-f40c-4a63-924a-c597ef0a4bc6")
 		(property "Reference" "#PWR010"
-			(at 158.75 86.36 0)
+			(at 157.48 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -757,15 +813,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 85.09 0)
+			(at 154.94 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 80.01 0)
+			(at 151.13 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,7 +831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 80.01 0)
+			(at 151.13 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -783,7 +840,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 80.01 0)
+			(at 151.13 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
