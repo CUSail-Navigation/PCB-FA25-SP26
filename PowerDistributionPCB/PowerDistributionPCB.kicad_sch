@@ -3366,28 +3366,6 @@
 			)
 		)
 	)
-	(global_label "5Vout"
-		(shape input)
-		(at 218.44 22.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3ab5412e-e785-4285-90b1-2d2b04704438")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.747 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "5VRelayOut"
 		(shape input)
 		(at 81.28 87.63 180)
@@ -3406,6 +3384,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5VRelayOut"
+		(shape input)
+		(at 218.44 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58e46bdd-dd94-4323-a111-00a3a20ced88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.0689 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5928,6 +5928,48 @@
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
 					(reference "Rfbt2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.958 141.986)
+		(size 53.594 35.052)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "079a49e6-596e-4e19-9f4e-bda307b8342c")
+		(property "Sheetname" "3.3V_Stepdown"
+			(at 44.958 141.2744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3VSTEPDOWN.kicad_sch"
+			(at 44.958 177.6226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerDistributionPCB"
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
+					(page "5")
 				)
 			)
 		)
