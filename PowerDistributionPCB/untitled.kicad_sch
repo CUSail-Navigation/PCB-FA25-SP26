@@ -552,7 +552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56c4b739-51bc-4b39-9c42-d5568ae81ccd")
-		(property "Reference" "K?"
+		(property "Reference" "K1"
 			(at 120.65 52.07 0)
 			(effects
 				(font
@@ -637,22 +637,26 @@
 			)
 		)
 		(pin "1"
-			(uuid "eaad17d7-57e3-47e3-9115-d37fcfbbd3aa")
+			(uuid "fe689bd6-a51b-4270-8d9b-a7c8c0fdc8e5")
 		)
 		(pin "2"
-			(uuid "eb5c5971-1baa-49a1-838d-8dc3253e6cc8")
+			(uuid "5eb0589d-a391-45bd-bbff-97f8ff0518df")
 		)
 		(pin "3"
-			(uuid "837c0ba3-5a71-40d0-96de-c2337b38a578")
+			(uuid "b08720a2-290f-403f-b04b-2d7068577feb")
 		)
 		(pin "4"
-			(uuid "4396214a-6aed-460a-a568-1f1a7fc4bbf7")
+			(uuid "6a418a6e-b5d3-4a8a-9c5e-0a6cc1fd9500")
 		)
 		(pin "5"
-			(uuid "331b1f55-b269-4341-95a9-31d756985890")
+			(uuid "321bf18f-01a3-482a-b6f1-663d1a4c8998")
 		)
 		(instances
 			(project "PowerDistributionPCB"
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/0499fe0a-5226-48d2-93fa-51ba0d86cbfb"
+					(reference "K1")
+					(unit 1)
+				)
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/4aa10ec7-4b36-4cde-a760-c4500e70a751"
 					(reference "K?")
 					(unit 1)
@@ -674,7 +678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87e4a3d6-dccf-4cb1-820a-f58a6228645e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 101.6 64.77 0)
 			(effects
 				(font
@@ -720,10 +724,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "5bc760eb-9561-4385-9631-dc5fb2c43d7e")
+			(uuid "0fcb5550-b9d0-4b39-9905-d243b5853866")
 		)
 		(instances
 			(project "PowerDistributionPCB"
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/0499fe0a-5226-48d2-93fa-51ba0d86cbfb"
+					(reference "#PWR016")
+					(unit 1)
+				)
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/4aa10ec7-4b36-4cde-a760-c4500e70a751"
 					(reference "#PWR014")
 					(unit 1)
@@ -745,7 +753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca9a0cf0-bc98-466a-844d-68602e3da335")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR017"
 			(at 139.7 64.77 0)
 			(effects
 				(font
@@ -791,10 +799,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "30fd3fac-584b-4004-897f-db7d4853cd3e")
+			(uuid "c1684502-9e4d-434a-a37d-77d3ffe8c39f")
 		)
 		(instances
 			(project "PowerDistributionPCB"
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/0499fe0a-5226-48d2-93fa-51ba0d86cbfb"
+					(reference "#PWR017")
+					(unit 1)
+				)
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/4aa10ec7-4b36-4cde-a760-c4500e70a751"
 					(reference "#PWR01")
 					(unit 1)
