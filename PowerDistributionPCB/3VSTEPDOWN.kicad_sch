@@ -1400,7 +1400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f8cdc2d-0705-4267-a2b6-1963d2099573")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 119.38 82.5499 0)
 			(effects
 				(font
@@ -1409,7 +1409,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 119.38 85.0899 0)
 			(effects
 				(font
@@ -1454,7 +1454,7 @@
 		(instances
 			(project ""
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/079a49e6-596e-4e19-9f4e-bda307b8342c"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1536,7 +1536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "453e7f72-c5cb-42b5-9b29-c73c0c32b3a1")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 193.04 85.0899 0)
 			(effects
 				(font
@@ -1545,7 +1545,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22µF"
 			(at 193.04 87.6299 0)
 			(effects
 				(font
@@ -1590,7 +1590,7 @@
 		(instances
 			(project ""
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/079a49e6-596e-4e19-9f4e-bda307b8342c"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -1606,7 +1606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ec3fb9d-6e1b-4660-98d9-3146b65ebced")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 119.38 71.1199 0)
 			(effects
 				(font
@@ -1615,7 +1615,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 119.38 73.6599 0)
 			(effects
 				(font
@@ -1660,7 +1660,7 @@
 		(instances
 			(project ""
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/079a49e6-596e-4e19-9f4e-bda307b8342c"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1742,7 +1742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c92de18-fec8-4dd9-810f-b71b8c63cbb6")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 107.95 80.0099 0)
 			(effects
 				(font
@@ -1751,7 +1751,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10µF"
 			(at 107.95 82.5499 0)
 			(effects
 				(font
@@ -1796,7 +1796,7 @@
 		(instances
 			(project ""
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/079a49e6-596e-4e19-9f4e-bda307b8342c"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -1812,7 +1812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e6f7eac-011b-4359-8a0e-be803d091103")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 163.83 72.39 90)
 			(effects
 				(font
@@ -1820,7 +1820,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1µF"
 			(at 163.83 74.93 90)
 			(effects
 				(font
@@ -1864,7 +1864,7 @@
 		(instances
 			(project ""
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/079a49e6-596e-4e19-9f4e-bda307b8342c"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -1880,7 +1880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "701322fa-7053-4ba5-bd6f-56755c8dfc07")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 182.88 85.0899 0)
 			(effects
 				(font
@@ -1889,7 +1889,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22µF"
 			(at 182.88 87.6299 0)
 			(effects
 				(font
@@ -1934,7 +1934,7 @@
 		(instances
 			(project ""
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/079a49e6-596e-4e19-9f4e-bda307b8342c"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2082,7 +2082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acb8d241-1f50-4b7f-a619-4216b7c11e99")
-		(property "Reference" "L?"
+		(property "Reference" "L1"
 			(at 172.72 72.39 90)
 			(effects
 				(font
@@ -2090,7 +2090,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "4.7µH"
 			(at 172.72 74.93 90)
 			(effects
 				(font
@@ -2134,7 +2134,7 @@
 		(instances
 			(project ""
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/079a49e6-596e-4e19-9f4e-bda307b8342c"
-					(reference "L?")
+					(reference "L1")
 					(unit 1)
 				)
 			)

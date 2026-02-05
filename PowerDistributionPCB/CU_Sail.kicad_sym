@@ -18,7 +18,7 @@
 			)
 		)
 		(property "Value" "AOD4185"
-			(at 11.43 -2.54 0)
+			(at 16.002 -1.524 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -367,6 +367,30 @@
 			)
 		)
 		(symbol "AOD4185_1_1"
+			(text "G"
+				(at 1.016 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "D\n"
+				(at 8.89 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "S\n"
+				(at 8.89 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin unspecified line
 				(at 0 0 0)
 				(length 2.54)
