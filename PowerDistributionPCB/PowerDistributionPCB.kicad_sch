@@ -6217,6 +6217,48 @@
 		)
 	)
 	(sheet
+		(at 25.908 113.792)
+		(size 17.78 11.176)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "38b4a8c0-a194-453b-9b43-f18df9df042a")
+		(property "Sheetname" "Reverse_Polarity"
+			(at 25.908 113.0804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Reverse_Polarity.kicad_sch"
+			(at 25.908 125.5526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerDistributionPCB"
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 71.12 15.24)
 		(size 24.638 15.494)
 		(exclude_from_sim no)

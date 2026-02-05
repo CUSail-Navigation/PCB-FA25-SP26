@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CU_Sail")(type "KiCad")(uri "${KIPRJMOD}/CU_Sail.kicad_sym")(options "")(descr ""))
+)
