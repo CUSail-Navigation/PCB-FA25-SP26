@@ -1017,6 +1017,10 @@
 		(color 0 0 0 0)
 		(uuid "d3c700f1-847d-4c00-92c2-6bcbb0ad00dd")
 	)
+	(no_connect
+		(at 111.76 69.85)
+		(uuid "90213238-ddc5-48ed-8c53-b1f9d2451076")
+	)
 	(wire
 		(pts
 			(xy 138.43 82.55) (xy 139.7 82.55)
