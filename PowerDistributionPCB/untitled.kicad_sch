@@ -1107,7 +1107,7 @@
 		)
 		(uuid "f496a6bd-7469-4d39-9d9f-778a421d205d")
 	)
-	(hierarchical_label "PicoConnection"
+	(hierarchical_label "ArduinoConnection"
 		(shape input)
 		(at 125.73 72.39 180)
 		(effects
@@ -1161,7 +1161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c4f45e4-ace3-4f2f-b891-ffb583097c71")
-		(property "Reference" "Q1"
+		(property "Reference" "Q"
 			(at 146.05 71.1199 0)
 			(effects
 				(font
@@ -1210,26 +1210,26 @@
 			)
 		)
 		(pin "2"
-			(uuid "b1b82878-a5fc-4851-8df0-825a11ade9ee")
+			(uuid "7b39c655-0654-4d35-8897-8011834dd5ec")
 		)
 		(pin "1"
-			(uuid "6e0d60ed-beb4-4154-8012-7ea919bd31de")
+			(uuid "fb753071-07ae-4da5-b2db-313bce090167")
 		)
 		(pin "3"
-			(uuid "47b0d7e9-7a48-4515-97df-db5b9fd55748")
+			(uuid "fe4f2a06-f1b2-4720-a910-6033b1094ccc")
 		)
 		(instances
-			(project ""
-				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/0499fe0a-5226-48d2-93fa-51ba0d86cbfb"
-					(reference "Q1")
-					(unit 1)
-				)
-				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/4aa10ec7-4b36-4cde-a760-c4500e70a751"
+			(project "PowerDistributionPCB"
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/2a69d7e0-98c2-47cd-b7c8-14763472c0d8"
 					(reference "Q3")
 					(unit 1)
 				)
-				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/bfd015dc-a1f5-42ba-b972-f7703fed8888"
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/a2f984ed-c504-464a-8131-e8a4707504b7"
 					(reference "Q2")
+					(unit 1)
+				)
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/fcb51314-c7c2-4c49-a056-3b722a5b6f6e"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -1330,19 +1330,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe689bd6-a51b-4270-8d9b-a7c8c0fdc8e5")
+			(uuid "fb81e029-761d-491b-acdf-90b056bba30b")
 		)
 		(pin "2"
-			(uuid "5eb0589d-a391-45bd-bbff-97f8ff0518df")
+			(uuid "ab431e23-f969-48f7-a6ee-46cb39ac6a1b")
 		)
 		(pin "3"
-			(uuid "b08720a2-290f-403f-b04b-2d7068577feb")
+			(uuid "8b623dbe-5c04-49e7-9c4d-b6bb17f05fc4")
 		)
 		(pin "4"
-			(uuid "6a418a6e-b5d3-4a8a-9c5e-0a6cc1fd9500")
+			(uuid "80154277-a435-496b-acd9-83ab7db52ead")
 		)
 		(pin "5"
-			(uuid "321bf18f-01a3-482a-b6f1-663d1a4c8998")
+			(uuid "3afb7522-f93e-47a6-b464-c872f1f91347")
 		)
 		(instances
 			(project "PowerDistributionPCB"
@@ -1350,12 +1350,16 @@
 					(reference "K1")
 					(unit 1)
 				)
-				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/4aa10ec7-4b36-4cde-a760-c4500e70a751"
-					(reference "K?")
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/2a69d7e0-98c2-47cd-b7c8-14763472c0d8"
+					(reference "K3")
 					(unit 1)
 				)
-				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/bfd015dc-a1f5-42ba-b972-f7703fed8888"
-					(reference "K?")
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/a2f984ed-c504-464a-8131-e8a4707504b7"
+					(reference "K2")
+					(unit 1)
+				)
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/fcb51314-c7c2-4c49-a056-3b722a5b6f6e"
+					(reference "K4")
 					(unit 1)
 				)
 			)
@@ -1371,7 +1375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87287cc1-4ce1-4e1a-8bc6-6d6a54fab06e")
-		(property "Reference" "D1"
+		(property "Reference" "D"
 			(at 149.86 58.42 0)
 			(effects
 				(font
@@ -1433,23 +1437,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "8ee48e81-f910-4a79-8a22-f399d8fe3059")
+			(uuid "f3182ad1-b1a6-4b36-889f-f1863d8d9ee8")
 		)
 		(pin "2"
-			(uuid "3ed67c04-9f3e-48fd-9d39-3b1f299dad88")
+			(uuid "56b69936-b433-40a8-a501-e6d22dabdcc7")
 		)
 		(instances
-			(project ""
-				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/0499fe0a-5226-48d2-93fa-51ba0d86cbfb"
-					(reference "D1")
-					(unit 1)
-				)
-				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/4aa10ec7-4b36-4cde-a760-c4500e70a751"
+			(project "PowerDistributionPCB"
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/2a69d7e0-98c2-47cd-b7c8-14763472c0d8"
 					(reference "D3")
 					(unit 1)
 				)
-				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/bfd015dc-a1f5-42ba-b972-f7703fed8888"
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/a2f984ed-c504-464a-8131-e8a4707504b7"
 					(reference "D2")
+					(unit 1)
+				)
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/fcb51314-c7c2-4c49-a056-3b722a5b6f6e"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -1511,7 +1515,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1684502-9e4d-434a-a37d-77d3ffe8c39f")
+			(uuid "a4fbc16b-c0d5-4e71-abed-2a42ea46cab5")
 		)
 		(instances
 			(project "PowerDistributionPCB"
@@ -1519,12 +1523,16 @@
 					(reference "#PWR017")
 					(unit 1)
 				)
-				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/4aa10ec7-4b36-4cde-a760-c4500e70a751"
-					(reference "#PWR01")
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/2a69d7e0-98c2-47cd-b7c8-14763472c0d8"
+					(reference "#PWR014")
 					(unit 1)
 				)
-				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/bfd015dc-a1f5-42ba-b972-f7703fed8888"
-					(reference "#PWR?")
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/a2f984ed-c504-464a-8131-e8a4707504b7"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/fcb51314-c7c2-4c49-a056-3b722a5b6f6e"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -1540,7 +1548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff993206-beff-4d06-96e5-9e8eebe2b6a4")
-		(property "Reference" "R1"
+		(property "Reference" "R"
 			(at 130.81 66.04 90)
 			(effects
 				(font
@@ -1584,23 +1592,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "9ed3f6cc-dc79-466d-aa6d-5d87e253c140")
+			(uuid "56429b07-8634-4019-8f2b-26b0d9abc779")
 		)
 		(pin "2"
-			(uuid "7136de85-cec8-4359-91e1-24f6d75b4209")
+			(uuid "09bfc87c-4c3c-426d-9b84-ee409a5e0a94")
 		)
 		(instances
-			(project ""
-				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/0499fe0a-5226-48d2-93fa-51ba0d86cbfb"
-					(reference "R1")
-					(unit 1)
-				)
-				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/4aa10ec7-4b36-4cde-a760-c4500e70a751"
+			(project "PowerDistributionPCB"
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/2a69d7e0-98c2-47cd-b7c8-14763472c0d8"
 					(reference "R3")
 					(unit 1)
 				)
-				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/bfd015dc-a1f5-42ba-b972-f7703fed8888"
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/a2f984ed-c504-464a-8131-e8a4707504b7"
 					(reference "R2")
+					(unit 1)
+				)
+				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6/fcb51314-c7c2-4c49-a056-3b722a5b6f6e"
+					(reference "R4")
 					(unit 1)
 				)
 			)
