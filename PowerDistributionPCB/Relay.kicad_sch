@@ -1391,7 +1391,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 134.62 78.74 90)
 			(effects
 				(font
