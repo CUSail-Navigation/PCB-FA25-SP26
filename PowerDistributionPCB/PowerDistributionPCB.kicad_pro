@@ -619,15 +619,15 @@
       "3.3VRelay"
     ],
     [
-      "a2f984ed-c504-464a-8131-e8a4707504b7",
-      "VNRelay"
-    ],
-    [
-      "2a69d7e0-98c2-47cd-b7c8-14763472c0d8",
+      "bc81fbfc-105e-4a1e-9c64-aef8176131fd",
       "5VRelay"
     ],
     [
-      "fcb51314-c7c2-4c49-a056-3b722a5b6f6e",
+      "b52676e1-342e-49c4-963c-f49df25fb09a",
+      "VNRelay"
+    ],
+    [
+      "e94ceb08-acf2-4b25-ab18-39827377318c",
       "12VRelay"
     ]
   ],
