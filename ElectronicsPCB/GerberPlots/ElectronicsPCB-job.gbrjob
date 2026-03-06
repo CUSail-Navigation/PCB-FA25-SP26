@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.4"
+      "Version": "9.0.3"
     },
-    "CreationDate": "2026-03-05T18:09:57-05:00"
+    "CreationDate": "2026-03-06T12:15:15-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -76,11 +76,6 @@
     {
       "Path": "ElectronicsPCB-Edge_Cuts.gbr",
       "FileFunction": "Profile",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ElectronicsPCB-F_Fab.gbr",
-      "FileFunction": "AssemblyDrawing,Top",
       "FilePolarity": "Positive"
     }
   ],
