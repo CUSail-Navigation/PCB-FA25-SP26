@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "digi")(type "KiCad")(uri "${KIPRJMOD}/digi.kicad_sym")(options "")(descr ""))
+  (lib (name "switches")(type "KiCad")(uri "${KIPRJMOD}/switches.kicad_sym")(options "")(descr ""))
+  (lib (name "cusail")(type "KiCad")(uri "${KIPRJMOD}/cusail.kicad_sym")(options "")(descr ""))
+)
