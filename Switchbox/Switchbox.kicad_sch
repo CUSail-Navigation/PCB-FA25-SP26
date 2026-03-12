@@ -3325,12 +3325,6 @@
 		(uuid "03e18cb1-47df-45d7-8486-8dd04641d1be")
 	)
 	(junction
-		(at 152.4 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "196161a1-777d-4a3e-b9f9-255ff4e2584b")
-	)
-	(junction
 		(at 163.83 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3878,16 +3872,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 46.99) (xy 116.84 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69940a67-499c-4ca3-81b0-ceb1ad759e6e")
-	)
-	(wire
-		(pts
 			(xy 80.01 151.13) (xy 80.01 154.94)
 		)
 		(stroke
@@ -3988,16 +3972,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 46.99) (xy 167.64 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8117317e-3655-4e75-8866-21ebfc57759a")
-	)
-	(wire
-		(pts
 			(xy 207.01 80.01) (xy 133.35 80.01)
 		)
 		(stroke
@@ -4075,16 +4049,6 @@
 			(type default)
 		)
 		(uuid "966fe005-22a1-47fb-b691-d21ee6746373")
-	)
-	(wire
-		(pts
-			(xy 152.4 46.99) (xy 152.4 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96797f98-415a-43dd-adbe-e000affdb1bd")
 	)
 	(wire
 		(pts
@@ -4378,16 +4342,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 46.99) (xy 116.84 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e427004d-594a-41c4-90f3-e63b8e2f0872")
-	)
-	(wire
-		(pts
 			(xy 152.4 76.2) (xy 163.83 76.2)
 		)
 		(stroke
@@ -4475,6 +4429,72 @@
 			(type default)
 		)
 		(uuid "fed3c4b3-2876-41e9-a5ad-60b5ca14741b")
+	)
+	(global_label "3v3"
+		(shape input)
+		(at 152.4 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27d0f5d7-a7ae-41e4-a7e6-3f5430ff7215")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.0282 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3v3"
+		(shape input)
+		(at 116.84 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70e62c2d-2b97-4549-a41a-508c129c8c7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 46.9682 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3v3"
+		(shape input)
+		(at 167.64 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6a8a29a-dc60-4da6-ba66-fe85ca97be7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.2682 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
