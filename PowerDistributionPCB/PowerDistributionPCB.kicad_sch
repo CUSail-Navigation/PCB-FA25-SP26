@@ -7539,7 +7539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 262.5852 147.32 0)
 			(effects
 				(font
@@ -7591,7 +7591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1403cd27-11e2-46c0-be8f-9cde64eaa5ce")
-		(property "Reference" "XBee"
+		(property "Reference" "XBee1"
 			(at 53.34 139.7 0)
 			(effects
 				(font
@@ -7607,7 +7607,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSail:XBee"
 			(at 52.07 161.29 0)
 			(effects
 				(font
@@ -7697,7 +7697,7 @@
 		(instances
 			(project ""
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
-					(reference "XBee")
+					(reference "XBee1")
 					(unit 1)
 				)
 			)
@@ -7866,7 +7866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 233.172 106.68 90)
 			(effects
 				(font
@@ -8116,7 +8116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d08b787-121d-4269-9eb0-13d4e193d008")
-		(property "Reference" "C1b"
+		(property "Reference" "C1b1"
 			(at 143.764 142.494 0)
 			(effects
 				(font
@@ -8134,7 +8134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 152.0952 147.32 0)
 			(effects
 				(font
@@ -8170,7 +8170,7 @@
 		(instances
 			(project ""
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
-					(reference "C1b")
+					(reference "C1b1")
 					(unit 1)
 				)
 			)
@@ -8186,7 +8186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d0f8a79-2b4b-46f2-87ff-d035216ef4ba")
-		(property "Reference" "C1a"
+		(property "Reference" "C1a1"
 			(at 157.48 95.2499 0)
 			(effects
 				(font
@@ -8204,7 +8204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 154.6352 100.33 0)
 			(effects
 				(font
@@ -8240,7 +8240,7 @@
 		(instances
 			(project "PowerDistributionPCB"
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
-					(reference "C1a")
+					(reference "C1a1")
 					(unit 1)
 				)
 			)
@@ -8413,7 +8413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "343b65d4-6349-4f9e-8221-36e331e5f002")
-		(property "Reference" "Main_Bulk(electrolytic)"
+		(property "Reference" "Main_Bulk(electrolytic)1"
 			(at 204.47 25.3999 0)
 			(effects
 				(font
@@ -8467,7 +8467,7 @@
 		(instances
 			(project ""
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
-					(reference "Main_Bulk(electrolytic)")
+					(reference "Main_Bulk(electrolytic)1")
 					(unit 1)
 				)
 			)
@@ -8571,7 +8571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 258.7752 101.6 0)
 			(effects
 				(font
@@ -8755,7 +8755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63307e13-0765-4cba-ba9a-96da13b98426")
-		(property "Reference" "Rmode1b"
+		(property "Reference" "Rmode1b1"
 			(at 173.99 154.178 0)
 			(effects
 				(font
@@ -8773,7 +8773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 169.672 153.67 90)
 			(effects
 				(font
@@ -8809,7 +8809,7 @@
 		(instances
 			(project ""
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
-					(reference "Rmode1b")
+					(reference "Rmode1b1")
 					(unit 1)
 				)
 			)
@@ -8891,7 +8891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65e0839d-eead-4665-9277-e6e04a7735f3")
-		(property "Reference" "C2b"
+		(property "Reference" "C2b1"
 			(at 163.83 142.2399 0)
 			(effects
 				(font
@@ -8909,7 +8909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 160.9852 147.32 0)
 			(effects
 				(font
@@ -8945,7 +8945,7 @@
 		(instances
 			(project ""
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
-					(reference "C2b")
+					(reference "C2b1")
 					(unit 1)
 				)
 			)
@@ -9330,7 +9330,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f7ee4de-cd2b-4a95-b5e3-b3cb48463cc2")
-		(property "Reference" "22V_BATT_IN"
+		(property "Reference" "22V_BATT_IN1"
 			(at 260.35 13.97 0)
 			(effects
 				(font
@@ -9513,7 +9513,7 @@
 		(instances
 			(project ""
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
-					(reference "22V_BATT_IN")
+					(reference "22V_BATT_IN1")
 					(unit 1)
 				)
 			)
@@ -9745,7 +9745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 253.6952 147.32 0)
 			(effects
 				(font
@@ -9948,7 +9948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 272.7452 147.32 0)
 			(effects
 				(font
@@ -9999,7 +9999,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90e24a1e-7e91-44aa-8a21-d3b5ec88bc19")
-		(property "Reference" "R3a"
+		(property "Reference" "R3a1"
 			(at 100.33 165.1 0)
 			(effects
 				(font
@@ -10053,7 +10053,7 @@
 		(instances
 			(project "PowerDistributionPCB"
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
-					(reference "R3a")
+					(reference "R3a1")
 					(unit 1)
 				)
 			)
@@ -10380,7 +10380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 246.0752 101.6 0)
 			(effects
 				(font
@@ -10499,7 +10499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a78346e7-64c5-42f2-b49f-206614bc906f")
-		(property "Reference" "12V_OUT"
+		(property "Reference" "12V_OUT1"
 			(at 261.62 60.96 0)
 			(effects
 				(font
@@ -10569,7 +10569,7 @@
 		(instances
 			(project ""
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
-					(reference "12V_OUT")
+					(reference "12V_OUT1")
 					(unit 1)
 				)
 			)
@@ -10603,7 +10603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 240.792 149.86 90)
 			(effects
 				(font
@@ -10655,7 +10655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b67e93a7-9984-41c2-98ad-96d7493f19f0")
-		(property "Reference" "R3b"
+		(property "Reference" "R3b1"
 			(at 109.22 176.5299 0)
 			(effects
 				(font
@@ -10709,7 +10709,7 @@
 		(instances
 			(project "PowerDistributionPCB"
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
-					(reference "R3b")
+					(reference "R3b1")
 					(unit 1)
 				)
 			)
@@ -11064,7 +11064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db56f93f-766c-45ff-9e37-58eae991d03f")
-		(property "Reference" "Rmode1a"
+		(property "Reference" "Rmode1a1"
 			(at 184.15 106.6799 0)
 			(effects
 				(font
@@ -11082,7 +11082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 179.832 107.95 90)
 			(effects
 				(font
@@ -11118,7 +11118,7 @@
 		(instances
 			(project "PowerDistributionPCB"
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
-					(reference "Rmode1a")
+					(reference "Rmode1a1")
 					(unit 1)
 				)
 			)
@@ -11342,7 +11342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0740383-bf31-44fe-94be-df81e1554706")
-		(property "Reference" "C2a"
+		(property "Reference" "C2a1"
 			(at 170.18 95.2499 0)
 			(effects
 				(font
@@ -11360,7 +11360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 167.3352 100.33 0)
 			(effects
 				(font
@@ -11396,7 +11396,7 @@
 		(instances
 			(project "PowerDistributionPCB"
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
-					(reference "C2a")
+					(reference "C2a1")
 					(unit 1)
 				)
 			)
@@ -11430,7 +11430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 229.362 88.9 90)
 			(effects
 				(font
@@ -11500,7 +11500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 271.4752 101.6 0)
 			(effects
 				(font
@@ -11570,7 +11570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 240.792 138.43 90)
 			(effects
 				(font
@@ -11622,7 +11622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5e88fb4-1b91-4867-98e3-c4114d3dc0d9")
-		(property "Reference" "3.3V_OUT"
+		(property "Reference" "3.3V_OUT1"
 			(at 261.62 30.48 0)
 			(effects
 				(font
@@ -11680,7 +11680,7 @@
 		(instances
 			(project ""
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
-					(reference "3.3V_OUT")
+					(reference "3.3V_OUT1")
 					(unit 1)
 				)
 			)
@@ -11696,7 +11696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbb72a3b-94ff-4148-91b0-14730db3b2b3")
-		(property "Reference" "5V_OUT"
+		(property "Reference" "5V_OUT1"
 			(at 261.62 44.45 0)
 			(effects
 				(font
@@ -11760,7 +11760,7 @@
 		(instances
 			(project ""
 				(path "/b27c75df-6223-4cc6-be69-062c2b02d5c6"
-					(reference "5V_OUT")
+					(reference "5V_OUT1")
 					(unit 1)
 				)
 			)
