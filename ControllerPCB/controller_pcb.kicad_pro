@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Switchbox.kicad_pro",
+    "filename": "controller_pcb.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -611,7 +611,7 @@
   },
   "sheets": [
     [
-      "d487e400-6779-4fdb-b98e-a608f0bb7bbf",
+      "cf33a840-7e5a-4897-9482-4e07eee0dfbe",
       "Root"
     ]
   ],
