@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "switchbox_footprints")(type "KiCad")(uri "${KIPRJMOD}/switchbox_footprints.pretty")(options "")(descr ""))
+)

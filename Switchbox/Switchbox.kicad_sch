@@ -3698,16 +3698,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 63.5) (xy 119.38 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63e42abc-5836-4cce-b833-b51a57aac684")
-	)
-	(wire
-		(pts
 			(xy 116.84 59.69) (xy 116.84 66.04)
 		)
 		(stroke
@@ -4660,7 +4650,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 119.38 63.5 0)
+		(at 119.38 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4668,7 +4658,7 @@
 		(dnp no)
 		(uuid "01665eee-3d17-4405-9ba2-68b98ca8c974")
 		(property "Reference" "#PWR0102"
-			(at 119.38 67.31 0)
+			(at 119.38 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,7 +4667,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 123.698 61.468 0)
+			(at 123.698 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,7 +4675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 63.5 0)
+			(at 119.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4694,7 +4684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 63.5 0)
+			(at 119.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4703,7 +4693,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 119.38 63.5 0)
+			(at 119.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5169,7 +5159,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 59.69 74.168 90)
 			(effects
 				(font
@@ -5306,7 +5296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_10164359-00011LF_AMP"
+		(property "Footprint" "switchbox_footprints:CONN_10164359-00011LF_AMP"
 			(at 217.17 33.02 0)
 			(effects
 				(font
@@ -5388,7 +5378,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 53.34 125.73 0)
 			(effects
 				(font
@@ -5465,7 +5455,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 59.69 127.508 90)
 			(effects
 				(font
@@ -5805,7 +5795,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 53.34 102.87 0)
 			(effects
 				(font
@@ -5949,7 +5939,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 59.69 104.648 90)
 			(effects
 				(font
@@ -6017,7 +6007,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 59.69 89.408 90)
 			(effects
 				(font
@@ -6223,7 +6213,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 59.69 116.078 90)
 			(effects
 				(font
@@ -6291,7 +6281,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 59.69 56.388 90)
 			(effects
 				(font
@@ -6431,7 +6421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 87.122 129.54 90)
 			(effects
 				(font
@@ -6690,7 +6680,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 53.34 87.63 0)
 			(effects
 				(font
@@ -6902,7 +6892,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 53.34 72.39 0)
 			(effects
 				(font
@@ -6979,7 +6969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DSK0010A"
+		(property "Footprint" "switchbox_footprints:DSK0010A"
 			(at 185.42 49.53 0)
 			(effects
 				(font
@@ -7343,7 +7333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 53.34 54.61 0)
 			(effects
 				(font
@@ -7487,7 +7477,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 53.34 114.3 0)
 			(effects
 				(font
