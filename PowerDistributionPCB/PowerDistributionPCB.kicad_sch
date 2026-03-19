@@ -7796,7 +7796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSail:VLS4012"
 			(at 146.05 171.45 0)
 			(effects
 				(font
