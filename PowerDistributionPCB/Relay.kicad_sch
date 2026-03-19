@@ -1577,7 +1577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TE_8-1393239-5"
+		(property "Footprint" "CUSail:RT314F05"
 			(at 172.72 72.39 0)
 			(effects
 				(font

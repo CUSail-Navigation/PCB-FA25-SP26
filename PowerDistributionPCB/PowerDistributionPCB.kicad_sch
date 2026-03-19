@@ -8271,7 +8271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RCJ0009A-MFG"
+		(property "Footprint" "CUSail:TPSM84338RCJR"
 			(at 182.88 130.81 0)
 			(effects
 				(font
@@ -10219,7 +10219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RCJ0009A-MFG"
+		(property "Footprint" "CUSail:TPSM84338RCJR"
 			(at 185.42 80.01 0)
 			(effects
 				(font
@@ -11218,7 +11218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO252_AOS"
+		(property "Footprint" "CUSail:AOD4185"
 			(at 193.04 35.56 0)
 			(effects
 				(font
