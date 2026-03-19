@@ -9278,7 +9278,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUSail:MMSZ5242BS-7-F"
 			(at 194.31 53.34 0)
 			(effects
 				(font
@@ -9346,7 +9346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
+		(property "Footprint" "CUSail:XT30PW-M"
 			(at 256.54 21.59 0)
 			(effects
 				(font
