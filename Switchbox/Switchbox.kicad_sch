@@ -7620,7 +7620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:XBee"
+		(property "Footprint" "switchbox_footprints:xbee"
 			(at 228.6 91.44 0)
 			(effects
 				(font
