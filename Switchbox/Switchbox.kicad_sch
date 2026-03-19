@@ -5601,7 +5601,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 163.83 25.4 0)
 			(effects
 				(font
@@ -6439,7 +6439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 182.5752 38.1 0)
 			(effects
 				(font
@@ -6507,7 +6507,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "switchbox_footprints:SW_SPDT"
 			(at 34.29 69.85 0)
 			(effects
 				(font
@@ -6857,7 +6857,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "switchbox_footprints:SW_SPDT"
 			(at 34.29 100.33 0)
 			(effects
 				(font
@@ -7330,7 +7330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "switchbox_footprints:SW_SPDT"
 			(at 34.29 85.09 0)
 			(effects
 				(font
@@ -8018,7 +8018,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 158.75 26.9748 0)
 			(effects
 				(font
@@ -8088,7 +8088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 115.2652 33.02 0)
 			(effects
 				(font
@@ -8156,7 +8156,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "switchbox_footprints:SW_SPDT"
 			(at 34.29 52.07 0)
 			(effects
 				(font
@@ -8509,7 +8509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 172.4152 38.1 0)
 			(effects
 				(font
