@@ -1,4 +1,4 @@
-(footprint "SW_SPDT"
+(footprint "SPST_BUTTON_1190"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "95845a10-0762-46f2-93bd-b415a4e08e85")
+		(uuid "2f40ffab-2e2a-4f5b-a3a8-e024c5222035")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "SW_SPDT"
+	(property "Value" "SPST_BUTTON_1190"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "c7837366-37bc-4e71-b3f6-8d117b70a101")
+		(uuid "8a9aaee7-76a0-4af8-9135-e264472a2310")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "459a7ca5-1b5c-4d12-9f19-230d15f893bd")
+		(uuid "a48fa60a-192e-4b76-85b6-844004b4dc32")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4ff24458-c3be-4d6d-8ab5-534ebc5fb038")
+		(uuid "b9493162-6170-4b61-9a12-00833d61dc44")
 		(effects
 			(font
 				(size 1 1)
@@ -55,21 +55,21 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -6.5 -10.01603)
-		(end 6.5 -2.01603)
+		(start -6.5 -13)
+		(end 5 -2)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "2174c611-e5f9-4829-b6a4-ffc1d88be27a")
+		(uuid "ccb06619-1843-4c55-834e-b428d7ac1f9e")
 	)
-	(fp_text user "V+"
-		(at 3.5 -3.5 0)
+	(fp_text user "SPST-"
+		(at 0 -6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "24479007-616b-4802-b1b4-2b5ed8de95be")
+		(uuid "0256327b-f31e-4cde-98f7-7ecd745617d8")
 		(effects
 			(font
 				(size 1 1)
@@ -78,11 +78,11 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "STATE"
-		(at -1.5 -3.5 0)
+	(fp_text user "LED+"
+		(at -5 -11 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "5cac5864-a7d3-4473-9682-cefd366c5b71")
+		(uuid "05123e96-164b-4a66-91f3-e7d13dbec2c2")
 		(effects
 			(font
 				(size 1 1)
@@ -91,11 +91,11 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "GND"
-		(at -5.5 -3.5 0)
+	(fp_text user "SPST+"
+		(at 0 -11 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "691efefd-8e2a-4172-a00a-d0a233d26562")
+		(uuid "e6499254-8c66-4c9b-ad54-42edc7d6f98f")
 		(effects
 			(font
 				(size 1 1)
@@ -104,11 +104,24 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "SW_SPDT"
+	(fp_text user "LED-"
+		(at -5 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f7a4b175-6d09-46ae-8b82-9acafc778e6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "BUTTON"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "85a5b500-7b9b-4f7a-82d2-aac69cf2e6f8")
+		(uuid "20b8d109-4f81-441e-af01-fdea415e8ac2")
 		(effects
 			(font
 				(size 1 1)
@@ -117,7 +130,34 @@
 		)
 	)
 	(pad "1" thru_hole roundrect
-		(at -4 -6)
+		(at 2 -5)
+		(size 2.4525 1.635)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1968503937)
+		(uuid "7dd5bb4c-035b-41d9-88dc-c4f7080d9d5b")
+	)
+	(pad "2" thru_hole roundrect
+		(at 2 -10)
+		(size 2.4525 1.635)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1968503937)
+		(uuid "4b4ed560-55f7-45b9-9b5f-71a86cf04e92")
+	)
+	(pad "3" thru_hole roundrect
+		(at -4 -5)
+		(size 2.4525 1.635)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1968503937)
+		(uuid "d01b7096-1264-48c8-ad46-7146d56297df")
+	)
+	(pad "4" thru_hole roundrect
+		(at -4 -10)
 		(size 2.4525 1.635)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
@@ -125,31 +165,13 @@
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.2)
 		(chamfer top_left)
-		(uuid "ecc9721f-a6a6-45ea-a199-dd5370f87abb")
-	)
-	(pad "2" thru_hole roundrect
-		(at 0 -6.01603)
-		(size 2.4525 1.635)
-		(drill 1.1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.1968503937)
-		(uuid "3cea65b6-3214-458d-998d-768801caed6e")
-	)
-	(pad "3" thru_hole roundrect
-		(at 4 -6)
-		(size 2.4525 1.635)
-		(drill 1.1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.1968503937)
-		(uuid "e0120a93-e166-4bfd-b6d3-a60f3781cde1")
+		(uuid "9f7d7510-2825-48ab-bd89-35e73fc58163")
 	)
 	(zone
 		(net 0)
 		(net_name "")
 		(layer "F.SilkS")
-		(uuid "81f114c1-20a4-490d-b591-fc189fd4d549")
+		(uuid "22757009-c80f-4af9-9514-cb510b145c65")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -173,7 +195,7 @@
 		)
 		(polygon
 			(pts
-				(xy -6.5 -10.01603) (xy 6.5 -10.01603) (xy 6.5 -2.01603) (xy -6.5 -2.01603)
+				(xy -6.5 -13) (xy 5 -13) (xy 5 -2) (xy -6.5 -2)
 			)
 		)
 	)
