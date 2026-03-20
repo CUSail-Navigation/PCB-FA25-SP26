@@ -5969,7 +5969,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push_SPDT"
+		(property "Value" "SW_SPDT_BOX"
 			(at 72.39 44.45 0)
 			(effects
 				(font
@@ -7038,7 +7038,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "switchbox_footprints:SW_SPDT"
+		(property "Footprint" "switchbox_footprints:SPST_BUTTON_1190"
 			(at 90.17 180.34 0)
 			(effects
 				(font
