@@ -8571,7 +8571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CUSail:TPSM84338RCJR"
+		(property "Footprint" "CUSail:buck_correct"
 			(at 182.88 130.81 0)
 			(effects
 				(font
@@ -10919,7 +10919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CUSail:TPSM84338RCJR"
+		(property "Footprint" "CUSail:buck_correct"
 			(at 185.42 80.01 0)
 			(effects
 				(font
