@@ -6477,7 +6477,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_CL10B_01uf_0603"
+		(property "Footprint" "switchbox_footprints:CAPC0603X33N"
 			(at 171.1452 127 0)
 			(effects
 				(font
@@ -6547,7 +6547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "switchbox_footprints:CAPC3216X190N"
 			(at 188.9252 57.15 0)
 			(effects
 				(font
@@ -8201,7 +8201,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "switchbox_footprints:CAPC0603X33N"
 			(at 165.1 46.0248 0)
 			(effects
 				(font
@@ -8271,7 +8271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "switchbox_footprints:CAPC1005X70N"
 			(at 121.6152 52.07 0)
 			(effects
 				(font
@@ -8692,7 +8692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "switchbox_footprints:CAPC3216X190N"
 			(at 178.7652 57.15 0)
 			(effects
 				(font
