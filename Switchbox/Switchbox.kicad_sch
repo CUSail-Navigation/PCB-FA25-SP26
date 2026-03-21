@@ -7726,7 +7726,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1 uF"
 			(at 79.756 169.672 0)
 			(effects
 				(font
@@ -7735,7 +7735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "switchbox_footprints:CAPC0603X33N"
 			(at 77.1652 172.72 0)
 			(effects
 				(font
@@ -8623,7 +8623,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ElectronicsFootprints:CAP_C3225_47uf_1210"
+		(property "Footprint" "switchbox_footprints:CAPC2012X145N"
 			(at 177.4952 127 0)
 			(effects
 				(font
