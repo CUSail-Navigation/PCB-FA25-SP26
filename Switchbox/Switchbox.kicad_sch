@@ -5977,7 +5977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "switchbox_footprints:SW_SPDT"
+		(property "Footprint" "switchbox_footprints:3_pin_header"
 			(at 72.39 50.8 0)
 			(effects
 				(font
@@ -6615,7 +6615,7 @@
 				)
 			)
 		)
-		(property "Footprint" "switchbox_footprints:SW_SPDT"
+		(property "Footprint" "switchbox_footprints:3_pin_header"
 			(at 40.64 88.9 0)
 			(effects
 				(font
@@ -6965,7 +6965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "switchbox_footprints:SW_SPDT"
+		(property "Footprint" "switchbox_footprints:3_pin_header"
 			(at 40.64 119.38 0)
 			(effects
 				(font
@@ -7038,7 +7038,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "switchbox_footprints:SPST_BUTTON_1190"
+		(property "Footprint" "switchbox_footprints:4_pin_header"
 			(at 90.17 180.34 0)
 			(effects
 				(font
@@ -7514,7 +7514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "switchbox_footprints:SW_SPDT"
+		(property "Footprint" "switchbox_footprints:3_pin_header"
 			(at 40.64 104.14 0)
 			(effects
 				(font
@@ -8339,7 +8339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "switchbox_footprints:SW_SPDT"
+		(property "Footprint" "switchbox_footprints:3_pin_header"
 			(at 40.64 71.12 0)
 			(effects
 				(font
