@@ -515,7 +515,7 @@
       "plot": "GerberPlots/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ElectronicsPCB.step",
       "svg": "",
       "vrml": ""
     },

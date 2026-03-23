@@ -7995,7 +7995,7 @@
 		(property "Reference" "5V_SYS"
 			(at 12.705 2.85 90)
 			(layer "F.SilkS")
-			(uuid "a4fda87d-d9e4-452d-acec-fbdb2032c335")
+			(uuid "8ce900dd-0f3e-46ed-9fd3-09351b9ffe35")
 			(effects
 				(font
 					(size 1 1)
@@ -8006,7 +8006,7 @@
 		(property "Value" "Conn_02x03_Counter_Clockwise"
 			(at 4.2 9.95 0)
 			(layer "F.Fab")
-			(uuid "c9919959-5582-4ec6-aae9-0d5d6ada0517")
+			(uuid "35e1ce5d-b323-4abd-8047-42cc2895f553")
 			(effects
 				(font
 					(size 1 1)
@@ -8018,7 +8018,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6112b0c1-fa75-401d-937f-d730759fe885")
+			(uuid "0a31624b-a3e0-4cf1-8dd3-c7d4de380980")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8030,7 +8030,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "685d972e-40e7-4db7-b8bf-bd2061c573d3")
+			(uuid "295f6126-3134-484b-b992-fb7aa541076d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8538,6 +8538,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/liya/Downloads/180633360-659-0039281063/0039281063.stp"
+			(offset
+				(xyz 4.2 -2.7 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -11298,7 +11309,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -90 -0)
+			)
+		)
+		(model "/Users/liya/Downloads/180633336-659-0039281043/0039281043.stp"
+			(offset
+				(xyz 2.1 -3 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
