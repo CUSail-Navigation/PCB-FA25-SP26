@@ -6198,7 +6198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "switchbox_footprints:2_pin_header"
 			(at 59.69 144.78 0)
 			(effects
 				(font
@@ -6685,7 +6685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "switchbox_footprints:2_pin_header"
 			(at 59.69 121.92 0)
 			(effects
 				(font
@@ -7924,7 +7924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "switchbox_footprints:2_pin_header"
 			(at 59.69 106.68 0)
 			(effects
 				(font
@@ -8409,7 +8409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "switchbox_footprints:2_pin_header"
 			(at 59.69 91.44 0)
 			(effects
 				(font
@@ -8892,7 +8892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "switchbox_footprints:2_pin_header"
 			(at 59.69 73.66 0)
 			(effects
 				(font
@@ -9036,7 +9036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "switchbox_footprints:2_pin_header"
 			(at 59.69 133.35 0)
 			(effects
 				(font
