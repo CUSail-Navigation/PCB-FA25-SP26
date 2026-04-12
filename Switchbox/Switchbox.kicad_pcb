@@ -152,6 +152,7 @@
 		(property "Reference" "D6"
 			(at 1.27 -3.96 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c463fd38-4997-4906-9e98-fe8178b55cb0")
 			(effects
 				(font
@@ -383,6 +384,7 @@
 		(property "Reference" "D5"
 			(at 1.27 -3.96 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "455b309d-f9f6-4f64-a68e-8199495adfd7")
 			(effects
 				(font
@@ -854,6 +856,7 @@
 		(property "Reference" "D3"
 			(at 1.27 -3.96 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "74f36fe6-bdaf-494b-befe-7eecb662c192")
 			(effects
 				(font
@@ -1290,6 +1293,7 @@
 		(property "Reference" "R6"
 			(at 3.81 -2.37 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "66c93342-58a2-4f7d-960f-b73fd7b75ce3")
 			(effects
 				(font
@@ -2340,6 +2344,7 @@
 		(property "Reference" "D1"
 			(at 1.27 -3.96 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "16285c1b-d484-4e9c-bd5a-aee9ff33a463")
 			(effects
 				(font
@@ -3540,6 +3545,7 @@
 		(property "Reference" "D2"
 			(at 1.27 -3.96 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "36a182b2-495b-477d-b9aa-c643c24ef71f")
 			(effects
 				(font
@@ -5028,6 +5034,7 @@
 		(property "Reference" "R5"
 			(at 1 2.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9ce13a86-a29a-4b26-841c-b242f819e6b1")
 			(effects
 				(font
@@ -5037,7 +5044,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 3.81 2.37 0)
+			(at 3.81 1.37 0)
 			(layer "F.Fab")
 			(uuid "092ea85a-ac33-4da3-9c44-05b43765a750")
 			(effects
@@ -5231,6 +5238,7 @@
 		(property "Reference" "R7"
 			(at 3.81 -2.37 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0ed15f5c-baaf-4251-9f05-c759ec53a6cf")
 			(effects
 				(font
@@ -5526,31 +5534,6 @@
 			(layer "F.SilkS")
 			(uuid "55311ba4-984e-482f-af6b-21dca119aec2")
 		)
-		(fp_text user "XBee"
-			(at -1 2 270)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "24828c26-e066-435f-864c-917cd75675ae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify left bottom)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 2 -3 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "72ac820c-194a-4805-b03a-dc8c8c0f27e9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at -11.5 -6 90)
 			(size 1.7 1.7)
@@ -5814,6 +5797,7 @@
 		(property "Reference" "A2"
 			(at 7.62 -5.08 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "95c25967-3499-4dcd-a000-c782e6d688b5")
 			(effects
 				(font
@@ -5825,6 +5809,7 @@
 		(property "Value" "Arduino_Nano_v3.x"
 			(at 8.89 19.05 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f0f58bc9-75f0-4905-88bf-d10f39e13873")
 			(effects
 				(font
@@ -8046,6 +8031,7 @@
 		(property "Reference" "D4"
 			(at 1.27 -3.96 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "93c9102a-90ed-434f-afda-d1e215f54138")
 			(effects
 				(font
@@ -8351,6 +8337,97 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "eca88e09-de15-495c-9fb3-baefebb9162e")
+	)
+	(gr_text "BIG RED BUTTON\n"
+		(at 105.85 137 0)
+		(layer "F.SilkS")
+		(uuid "10e82621-d551-47ad-981a-6768311837fe")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SUBSYSTEM SWITCHES\n"
+		(at 153.15 135.3 0)
+		(layer "F.SilkS")
+		(uuid "196d7496-725d-44fd-aa04-3b2cc7f3c909")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "USBC"
+		(at 186.590501 146.75 0)
+		(layer "F.SilkS")
+		(uuid "4ca20381-0fb0-4957-a671-2a0513b6141e")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "XBEE"
+		(at 119.6 109 0)
+		(layer "F.SilkS")
+		(uuid "6c1b83ae-a707-437b-b50b-72e88b265516")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Switchbox On/Off"
+		(at 171.85 86.8 0)
+		(layer "F.SilkS")
+		(uuid "6ebf199d-bc07-4b02-8cc9-f0fd53cdf492")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BUCK CONVERTER"
+		(at 158.25 150.9 0)
+		(layer "F.SilkS")
+		(uuid "81159024-b56b-44fa-9a9c-5a9b2f2b9c10")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Arduino Nano\n"
+		(at 163.9 104.05 0)
+		(layer "F.SilkS")
+		(uuid "fd26c994-21f2-4a84-bdc0-d5c794c9bfca")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 181 107)
