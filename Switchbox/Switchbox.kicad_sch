@@ -5068,7 +5068,7 @@
 		)
 	)
 	(global_label "3.3VBuck"
-		(shape input)
+		(shape output)
 		(at 187.96 44.45 0)
 		(fields_autoplaced yes)
 		(effects
