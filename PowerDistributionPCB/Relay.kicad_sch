@@ -1285,12 +1285,6 @@
 		(uuid "a5201816-dd21-478b-a93e-0f1f4ae25091")
 	)
 	(junction
-		(at 161.29 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c68b060e-d4e7-41e6-aba7-7e9fa5ed15d3")
-	)
-	(junction
 		(at 154.94 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1303,8 +1297,8 @@
 		(uuid "fd1b9d3b-e972-4111-a3f3-a1697cb2ac6f")
 	)
 	(no_connect
-		(at 184.15 76.2)
-		(uuid "00ca3ce0-9d43-4f8f-96d2-7083fe60ca0d")
+		(at 161.29 78.74)
+		(uuid "1abfa074-eb6d-45da-9324-4348e59b2dd3")
 	)
 	(wire
 		(pts
@@ -1548,16 +1542,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 77.47) (xy 161.29 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de7f8e2f-8b0c-4f6e-8693-d2bb0154f210")
-	)
-	(wire
-		(pts
 			(xy 143.51 72.39) (xy 143.51 74.93)
 		)
 		(stroke
@@ -1641,12 +1625,12 @@
 	)
 	(hierarchical_label "VIN"
 		(shape input)
-		(at 160.02 77.47 180)
+		(at 184.15 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ae1da7e1-8300-4997-83dc-215ccfc9a687")
 	)
