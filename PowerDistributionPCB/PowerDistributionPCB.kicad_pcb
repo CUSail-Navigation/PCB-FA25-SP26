@@ -3591,7 +3591,7 @@
 				)
 			)
 		)
-		(property "Value" "250µF"
+		(property "Value" "100µF"
 			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "595bf778-b0de-45d1-a956-8c11063a1786")
@@ -22079,16 +22079,89 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 66.32 53.81)
-		(end 156.1 165.46)
+	(gr_line
+		(start 153.1 165.46)
+		(end 69.32 165.46)
 		(stroke
 			(width 0.254)
-			(type solid)
+			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "17d13370-0278-42a6-aba2-109bacd89199")
+		(uuid "252b626e-68f2-40b4-a293-fe5dd01d07ce")
+	)
+	(gr_arc
+		(start 69.32 165.46)
+		(mid 67.19868 164.58132)
+		(end 66.32 162.46)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2c85d670-ab10-4340-b93f-b1e2158b7c51")
+	)
+	(gr_line
+		(start 156.1 56.81)
+		(end 156.1 162.46)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "81f2c487-294e-4e20-aa54-87b1e42a8701")
+	)
+	(gr_arc
+		(start 156.1 162.46)
+		(mid 155.22132 164.58132)
+		(end 153.1 165.46)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8a416b76-cacd-4a53-a8ba-f32e65f54424")
+	)
+	(gr_line
+		(start 69.32 53.81)
+		(end 153.1 53.81)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "910a1dc9-526d-41f5-a188-646b5deea357")
+	)
+	(gr_arc
+		(start 153.1 53.81)
+		(mid 155.22132 54.68868)
+		(end 156.1 56.81)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c74c286d-d008-4cdf-97c2-c749774dedde")
+	)
+	(gr_line
+		(start 66.32 162.46)
+		(end 66.32 56.81)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cc7706f3-4f01-408f-925f-9fcf50c94610")
+	)
+	(gr_arc
+		(start 66.32 56.81)
+		(mid 67.19868 54.68868)
+		(end 69.32 53.81)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f4c5f2dd-117d-41b5-9a1a-eaace6eef0cc")
 	)
 	(gr_text "want to add .1 µF decoupling caps between VIN & GND\n\nwe already have them as c2 i think\n\nmight want to tie clocks of bucks together though?"
 		(at 80 44.5 0)

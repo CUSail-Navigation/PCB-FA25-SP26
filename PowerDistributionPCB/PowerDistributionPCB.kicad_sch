@@ -9123,7 +9123,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "250µF"
+		(property "Value" "100µF"
 			(at 204.47 27.9399 0)
 			(effects
 				(font
