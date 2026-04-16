@@ -4937,6 +4937,28 @@
 		)
 	)
 	(gr_rect
+		(start 79.29 59.4)
+		(end 165.93 145.91)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Cu")
+		(uuid "8d291049-69e4-463e-a161-546ee81323dd")
+	)
+	(gr_rect
+		(start 77.41 58.27)
+		(end 167.81 147.17)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Cu")
+		(uuid "bca8ecd9-eed2-431c-b4c5-13262fc4b75a")
+	)
+	(gr_rect
 		(start 81.22 62.28)
 		(end 162.5 144.41)
 		(stroke
