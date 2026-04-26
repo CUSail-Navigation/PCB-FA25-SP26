@@ -9,8 +9,6 @@
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal "Front")
-		(4 "In1.Cu" signal)
-		(6 "In2.Cu" signal)
 		(2 "B.Cu" signal "Back")
 		(13 "F.Paste" user)
 		(15 "B.Paste" user)
@@ -42,29 +40,7 @@
 			)
 			(layer "dielectric 1"
 				(type "core")
-				(thickness 0.480066)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 2"
-				(type "prepreg")
-				(thickness 0.480066)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 3"
-				(type "core")
-				(thickness 0.480066)
+				(thickness 1.510198)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -268,7 +244,7 @@
 		(path "/332f1f87-979e-4820-b287-f73015d78ccf")
 		(sheetname "/")
 		(sheetfile "Switchbox.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 4.15 2.5)
 			(end -3.25 2.5)
@@ -510,7 +486,7 @@
 		(path "/f7f28a5e-dcbb-443b-9e07-3d1e1ed5612c")
 		(sheetname "/")
 		(sheetfile "Switchbox.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 4.15 2.5)
 			(end -3.25 2.5)
@@ -738,7 +714,7 @@
 		(path "/3879fc7d-0906-4aa8-9339-b78ec55fa44b")
 		(sheetname "/")
 		(sheetfile "Switchbox.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -4.75 -3.275)
 			(end 5.15 -3.275)
@@ -992,7 +968,7 @@
 		(path "/70849d4b-02a2-4e96-b48e-8552988e5840")
 		(sheetname "/")
 		(sheetfile "Switchbox.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 4.15 2.5)
 			(end -3.25 2.5)
@@ -2325,7 +2301,7 @@
 			(at 0.53 -0.77 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7ee97aa1-b7de-4eab-b9d7-3cad436e0b24")
+			(uuid "66b6e678-c31e-4861-b620-77879a4a231b")
 			(effects
 				(font
 					(size 0.393701 0.393701)
@@ -2337,7 +2313,7 @@
 			(at 2.28 0.77 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f27f1d98-c3b4-435a-825b-2a624cf3fc1c")
+			(uuid "c75542f4-f867-4f2e-9751-42022e47c1e6")
 			(effects
 				(font
 					(size 0.393701 0.393701)
@@ -2349,7 +2325,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d1c5850-e33f-4612-82cd-63685d4ba2cb")
+			(uuid "79bcd4f4-dc19-4684-932d-0dc1fb165c30")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2337,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b6390527-a6f1-488e-8f08-afda6eb6e883")
+			(uuid "3c6207e5-9b11-42dd-a977-71300a48a3af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2510,7 @@
 		(path "/48f77213-35bf-4db9-a162-5926d7741cc7")
 		(sheetname "/")
 		(sheetfile "Switchbox.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -4.75 -3.275)
 			(end 5.15 -3.275)
@@ -2947,7 +2923,7 @@
 		(path "/e73e6a8e-7d42-4b82-9822-761e0ef6b73e")
 		(sheetname "/")
 		(sheetfile "Switchbox.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 4.15 2.5)
 			(end -3.25 2.5)
@@ -3175,7 +3151,7 @@
 		(path "/66e20476-91c9-41fd-a673-ec915478ff4b")
 		(sheetname "/")
 		(sheetfile "Switchbox.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -4.75 -3.275)
 			(end 5.15 -3.275)
@@ -5495,7 +5471,7 @@
 		(path "/b2c482fc-2d05-40c9-ad4e-09de45d86a3e")
 		(sheetname "/")
 		(sheetfile "Switchbox.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 4.15 2.5)
 			(end -3.25 2.5)
@@ -5994,7 +5970,7 @@
 		(path "/4a85a778-4e43-42e2-8b58-912957a8636f")
 		(sheetname "/")
 		(sheetfile "Switchbox.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.25 -3.25)
 			(end 6.15 -3.25)
@@ -6332,7 +6308,7 @@
 		(path "/ae69fce2-272a-4b18-ba60-f4034148e21e")
 		(sheetname "/")
 		(sheetfile "Switchbox.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -4.75 -3.275)
 			(end 5.15 -3.275)
@@ -7479,7 +7455,7 @@
 		(path "/6d8655a4-1e6e-462b-875a-4c6aff64dd4a")
 		(sheetname "/")
 		(sheetfile "Switchbox.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 12 -17)
 			(end 12 19)
@@ -7834,7 +7810,7 @@
 		(path "/1afca0a9-6cba-49dc-8bbd-7b683699a506")
 		(sheetname "/")
 		(sheetfile "Switchbox.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 16.64 -3.94)
 			(end -1.4 -3.94)
@@ -12593,7 +12569,7 @@
 		(path "/2e28318e-c0e9-45b7-8c01-9a6ba3a9f827")
 		(sheetname "/")
 		(sheetfile "Switchbox.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -4.75 -3.275)
 			(end 5.15 -3.275)
@@ -13853,7 +13829,7 @@
 		(path "/38d57160-74a1-407e-8c50-da12074a5f9e")
 		(sheetname "/")
 		(sheetfile "Switchbox.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 4.15 2.5)
 			(end -3.25 2.5)
