@@ -6116,7 +6116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "switchbox_footprints:CONN_10164359-00011LF_AMP"
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48393-001"
 			(at 241.3 45.72 0)
 			(effects
 				(font
