@@ -18,7 +18,7 @@
 			)
 		)
 		(property "Value" "10164359-00011LF"
-			(at 0 0 0)
+			(at 0 4.318 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "CONN_10164359-00011LF_AMP"
-			(at 0 0 0)
+			(at 1.016 -16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -345,7 +345,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 0 0)
 				(length 5.08)
 				(name "CC1"
@@ -363,10 +363,10 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 0 -2.54 0)
 				(length 5.08)
-				(name "VBUS"
+				(name "CC2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -381,10 +381,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -5.08 0)
 				(length 5.08)
-				(name "GND"
+				(name "VBUS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -399,10 +399,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -7.62 0)
 				(length 5.08)
-				(name "CC2"
+				(name "VBUS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -417,10 +417,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -10.16 0)
 				(length 5.08)
-				(name "VBUS"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -435,7 +435,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -12.7 0)
 				(length 5.08)
 				(name "GND"
